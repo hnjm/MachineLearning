@@ -7,7 +7,7 @@ input_image = cv.imread('test.jpg')
 input_image_gray = cv.cvtColor(input_image, cv.COLOR_BGR2GRAY)
 
 #detected_shapes = cascade.detectMultiScale(input_image_gray, 1.3, 5)
-detected_shapes = cascade.detectMultiScale(input_image_gray, 1.01, 5)
+detected_shapes = cascade.detectMultiScale(input_image_gray, 1.001, 5)
 
 print(str(len(detected_shapes)) + " shapes detected")
 
